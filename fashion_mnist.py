@@ -110,7 +110,7 @@ class FashionMNISTDataset(Dataset):
         return self.X[index], self.Y[index]
 
 ############################################################
-# Reference Code
+# Reference Code (not programmed by me)
 ############################################################
 
 def train(model, data_loader, num_epochs, learning_rate):
